@@ -1,0 +1,49 @@
+* {
+  background: transparent !important;
+  box-shadow: none !important;
+  color: black !important;
+  text-shadow: none !important;
+}
+
+nav, #clients, footer ul{
+  display:none;
+}
+
+img {
+  display: none;
+}
+
+header{
+  text-align: center;
+}
+
+a[href^="http:"]:after {
+ content: " [" attr(href) "]";
+ color: blue;
+}
+
+h2{
+  page-break-before: always;
+}
+
+#spotlight h2{
+  page-break-before: avoid;
+}
+
+p{
+  font-size: 12pt;
+  orphans: 3;
+  widows: 3;
+}
+
+#services article{
+  column-count:2;
+}
+
+@page {
+  margin: 2cm;
+}
+
+@page :first {
+  margin-top: 3cm;
+}

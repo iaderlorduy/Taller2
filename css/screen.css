@@ -1,0 +1,441 @@
+/**
+ *  Fonts
+ */
+
+@font-face {
+    font-family:"Brandon Grotesque Regular";
+    src: url('../fonts/Brandon_reg-webfont.eot');
+    src: url('../fonts/Brandon_reg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Brandon_reg-webfont.woff2') format('woff2'),
+         url('../fonts/Brandon_reg-webfont.woff') format('woff'),
+         url('../fonts/Brandon_reg-webfont.ttf') format('truetype'),
+         url('../fonts/Brandon_reg-webfont.svg#brandon_grotesque_regularRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/**
+ * Generic rules
+ */
+
+body{
+  font-family:"Open Sans", Arial, Helvetica, sans-serif;
+  margin:0;
+  padding:0;
+}
+
+a{
+  text-decoration:none;
+}
+
+a:hover{
+  text-decoration:underline;
+}
+
+/**
+ * Layout
+ */
+
+header{
+  background:#2A2E39;
+  padding:0.625em 0;
+}
+
+header h1{
+  margin:0;
+}
+
+header h1 a{
+  background:url(../img/logo.png) no-repeat;
+  display:block;
+  height:3.125rem;
+  margin:0 auto;
+  outline:none;
+  text-indent:-9999px;
+  width:15.625rem;
+}
+
+nav h2{
+  display:none;
+}
+
+nav ul{
+  margin:0;
+  padding:0;
+  text-align:center;
+}
+
+nav ul li{
+  list-style-type:none;
+  text-align:center;
+}
+
+nav ul li a{
+  color: white;
+  font-family:"Brandon Grotesque Regular";
+  font-size:1.125em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover{
+  color:#EB6D4C;
+}
+
+nav ul li ul{
+  display:none;
+}
+
+#spotlight{
+  background:url(../img/banner.jpg) no-repeat center top;
+}
+
+#spotlight h2{
+  display:none;
+}
+
+#spotlight .hightlight{
+  text-align:center;
+}
+
+.rgba #spotlight .hightlight{
+  background:rgba(235,108,76,0.8);
+}
+
+#services{
+  background:#EBEBE8;
+  padding:0.625em 0;
+}
+
+#services h2{
+  display:none;
+}
+
+#services article{
+   text-align: center;
+}
+
+#services article h3{
+  color:#2A2E39;
+  font-size:2.250em;
+  font-weight:bold;
+  margin:0;
+  text-transform:uppercase;
+}
+
+#services article a{
+  color:#EB6D4C;
+  font-size:1.250em;
+  font-weight:bold;
+  text-decoration:underline;
+  text-transform:uppercase;
+}
+
+#portfolio h2{
+  display:none;
+}
+
+#portfolio ul{
+  margin:0;
+  padding:0;
+}
+
+#portfolio ul li{
+  list-style-type:none;
+}
+
+#portfolio ul li .info{
+  background:#EB6D4C;
+  padding:1.500em 1.750em 1.250em 1.250em;
+}
+
+#portfolio ul li .info h3{
+  color:white;
+  font-size:1.250em;
+  font-weight:bold;
+  margin:0 0 1.000em 0;
+  text-transform: uppercase;
+}
+
+#portfolio ul li .info p{
+  font-size:0.875em;
+}
+
+#portfolio ul li .info .readmore a{
+  color:white;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+
+#portfolio ul li .cover p{
+  margin:0;
+}
+
+#portfolio ul li .cover img{
+  width:100%;
+}
+
+#clients{
+  background:#B6B6B6;
+  padding:1.500em 0 3.000em 0;
+}
+
+#clients h2{
+  font-family:"Brandon Grotesque Regular";
+  font-size:2.250em;
+  margin:0;
+  padding:0;
+  text-align:center;
+  text-transform:uppercase;
+}
+
+#clients ul{
+  margin:2.500em 0 0 0;
+  padding:0;
+  position:relative;
+  text-align:center;
+}
+
+#clients ul li{
+  list-style-type:none;
+}
+
+footer{
+  background:#292E39;
+  padding:1.500em 0 2.000em 0;
+}
+
+footer h2{
+  display:none;
+}
+
+footer p{
+  color: #B6B6B6;
+  font-size:0.875em;
+  text-align:center;
+}
+
+footer ul{
+  margin:1.000em 0;
+  padding:0;
+}
+
+footer ul li{
+  list-style-type:none;
+  text-align:center;
+}
+
+footer ul li a{
+  color:#EB6D4C;
+  font-size:0.875em;
+  text-decoration:none;
+}
+
+footer .social{
+  text-align:center;
+}
+
+footer .social li{
+  display:inline-block;
+}
+
+footer .social li a{
+  display:block;
+  height:2.000rem;
+  outline:0;
+  text-indent:-9999px;
+  width:2.000rem;
+}
+
+footer .social li a.facebook{
+  background:url(../img/social-facebook.png) no-repeat;
+}
+
+footer .social li a.twitter{
+  background:url(../img/social-twitter.png) no-repeat;
+}
+
+footer .social li a.youtube{
+  background:url(../img/social-youtube.png) no-repeat;
+}
+
+footer .social li a.pinterest{
+  background:url(../img/social-pinterest.png) no-repeat;
+}
+
+footer .social li a.rss{
+  background:url(../img/social-rss.png) no-repeat;
+}
+
+.hightlight{
+  background-color:#EB6D4C;
+  color:white;
+  font-family:"Brandon Grotesque Regular", Arial, sans-serif;
+  font-size:2.813em;
+  margin:0;
+  padding:0 0.438em;
+  text-align:left;
+  text-transform:uppercase;
+}
+
+@media screen and (min-width:30.063em){
+  nav ul li{
+    border-right:0.063em solid #78839F;
+    display:inline-block;
+    padding:0 1.188em;
+    text-align:center;
+  }
+  nav ul li:last-child{
+    border:0;
+    padding-right:0;
+  }
+
+  #portfolio ul li{
+    float:left;
+    height:auto;
+    overflow:hidden;
+    position:relative;
+    width:50%;
+  }
+  #portfolio ul li p{
+    margin:0;
+  }
+  #portfolio ul li .info{
+    bottom:0;
+    background:#EB6D4C;
+    display:none;
+    left:0;
+    padding:1.500em 1.750em 1.250em 1.250em;
+    position:absolute;
+    right:0;
+    top:0;
+  }
+  #portfolio ul li:hover .info{
+    display:block;
+  }
+  #portfolio ul li .info .readmore a{
+    bottom:1.000em;
+    position:absolute;
+    z-index:1;
+  }
+  footer ul{
+    text-align:center;
+  }
+  footer ul li{
+    border-right:0.063em solid #B6B6B6;
+    display:inline-block;
+    list-style-type:none;
+    padding:0 0.500em;
+  }
+  footer ul li:first-child{
+    padding-left:0;
+  }
+
+  footer ul li:last-child{
+    border-right:0;
+  }
+  footer .social li{
+    border-right:0;
+  }
+}
+
+@media screen and (min-width:48.063em){
+  .wrapper{
+    margin:0 auto;
+    max-width:62.500em;
+    position:relative;
+    width:95%;
+  }
+  header{
+    height:7.500rem;
+  }
+  header h1{
+    left:0;
+    margin:0;
+    position:absolute;
+    top:2.563rem;
+  }
+  nav{
+    top:2.938em;
+    position:absolute;
+    right:0;
+  }
+  #spotlight .wrapper{
+    height: 25.000em;
+  }
+  #spotlight .hightlight{
+    bottom:3.125rem;
+    left:0;
+    margin:0;
+    position:absolute;
+    text-align:left;
+    padding:0 1.250rem;
+    width:26.625rem;
+  }
+  #services:after {
+    content:"";
+    display:table;
+    clear:both;
+  }
+  #services article{
+    float:left;
+    margin:0 1.5%;
+    text-align:center;
+    width:30%;
+  }
+  #portfolio:after {
+    content:"";
+    display:table;
+    clear:both;
+  }
+  #portfolio .wrapper {
+    max-width:initial;
+    width:auto;
+  }
+  #portfolio ul li{
+    height:auto;
+    width:20%;
+  }
+  #clients:after {
+    content:"";
+    display:table;
+    clear:both;
+  }
+  #clients h2{
+    text-align:left;
+  }
+  #clients ul li{
+    display:inline-block;
+    list-style-type:none;
+    padding:0 1.875em;
+  }
+  #clients ul:before{
+    content: url(../img/arrow-left.png);
+    position:absolute;
+    left:-1.875em;
+    top:0.625em;
+  }
+
+  #clients ul:after{
+    content: url(../img/arrow-right.png);
+    position:absolute;
+    right:-1.875em;
+    top:0.625em;
+  }
+  footer p{
+    margin:0.313em 0 0 0;
+    text-align:left;
+  }
+  footer ul{
+    margin:0;
+    text-align:left;
+  }
+
+  footer .social{
+    position:absolute;
+    right:0;
+  }
+  footer .social li{
+    margin-right:-0.313em;
+  }
+}
